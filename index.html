@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICpoint - Technical Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0f172a;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .language-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-switcher button {
+            background-color: #e2e8f0;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .language-switcher button.active {
+            background-color: #3b82f6;
+            color: white;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PICpoint</h1>
+        <p>Deep Image Analysis</p>
+    </header>
+
+    <div class="container">
+        <div class="language-switcher">
+            <button id="enBtn" class="active">English</button>
+            <button id="zhBtn">中文</button>
+        </div>
+
+        <!-- English Content -->
+        <div id="enContent">
+            <h2>Technical Support</h2>
+            
+            <div class="section">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li><strong>What image formats are supported?</strong><br>
+                    PICpoint supports JPG, PNG, WEBP, and HEIC formats (maximum file size: 10MB).</li>
+                    
+                    <li><strong>How long does the analysis take?</strong><br>
+                    Analysis time depends on the image complexity, typically ranging from 5 to 30 seconds.</li>
+                    
+                    <li><strong>Is my data secure?</strong><br>
+                    Yes, PICpoint prioritizes your privacy. All image processing is performed securely without storing your images.</li>
+                    
+                    <li><strong>How do I switch languages?</strong><br>
+                    The app automatically detects your device language. You can also change the language within the app settings.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Troubleshooting</h3>
+                <ul>
+                    <li><strong>App crashes on startup:</strong><br>
+                    Try updating to the latest version of iOS and PICpoint. If the issue continues, reinstall the app.</li>
+                    
+                    <li><strong>Image upload failed:</strong><br>
+                    Check your internet connection and ensure the image size is within the 10MB limit.</li>
+                    
+                    <li><strong>Analysis results are inaccurate:</strong><br>
+                    For best results, upload clear, high-resolution images with good lighting.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <p>If you have any questions or need further assistance, please contact our support team:</p>
+                    <p>Email: <a href="mailto:support@picpoint.app">support@picpoint.app</a></p>
+                    <p>Response time: 1-2 business days</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chinese Content -->
+        <div id="zhContent" style="display: none;">
+            <h2>技术支持</h2>
+            
+            <div class="section">
+                <h3>常见问题</h3>
+                <ul>
+                    <li><strong>支持哪些图片格式？</strong><br>
+                    图瞳支持JPG、PNG、WEBP和HEIC格式（最大文件大小：10MB）。</li>
+                    
+                    <li><strong>分析需要多长时间？</strong><br>
+                    分析时间取决于图片复杂度，通常在5到30秒之间。</li>
+                    
+                    <li><strong>我的数据安全吗？</strong><br>
+                    是的，图瞳重视您的隐私。所有图像处理都在安全环境中进行，不会存储您的图片。</li>
+                    
+                    <li><strong>如何切换语言？</strong><br>
+                    应用会自动检测您的设备语言。您也可以在应用设置中手动更改语言。</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>故障排除</h3>
+                <ul>
+                    <li><strong>应用启动时崩溃：</strong><br>
+                    请尝试更新到最新版本的iOS和图瞳应用。如果问题仍然存在，请重新安装应用。</li>
+                    
+                    <li><strong>图片上传失败：</strong><br>
+                    请检查您的网络连接，并确保图片大小在10MB限制内。</li>
+                    
+                    <li><strong>分析结果不准确：</strong><br>
+                    为获得最佳结果，请上传清晰、高分辨率且光线良好的图片。</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>联系我们</h3>
+                <div class="contact-info">
+                    <p>如果您有任何问题或需要进一步帮助，请联系我们的支持团队：</p>
+                    <p>电子邮件：<a href="mailto:support@picpoint.app">support@picpoint.app</a></p>
+                    <p>回复时间：1-2个工作日</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const enBtn = document.getElementById('enBtn');
+        const zhBtn = document.getElementById('zhBtn');
+        const enContent = document.getElementById('enContent');
+        const zhContent = document.getElementById('zhContent');
+
+        enBtn.addEventListener('click', () => {
+            enBtn.classList.add('active');
+            zhBtn.classList.remove('active');
+            enContent.style.display = 'block';
+            zhContent.style.display = 'none';
+        });
+
+        zhBtn.addEventListener('click', () => {
+            zhBtn.classList.add('active');
+            enBtn.classList.remove('active');
+            zhContent.style.display = 'block';
+            enContent.style.display = 'none';
+        });
+
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('zh')) {
+            zhBtn.click();
+        }
+    </script>
+</body>
+</html>
